@@ -44,4 +44,28 @@ Returns the loadtemplate method
 in /ThinkPHP/Library/Think/Storage/Driver/File.class.php  
 ![image](https://github.com/BigTiger2020/74CMS/blob/main/12.png)   
 
+* Recurrence:  
+First register an ordinary user at the front desk, and then update your resume:   
+![image](https://github.com/BigTiger2020/74CMS/blob/main/13.png)  
+
+After the resume is updated, upload photos:  
+![image](https://github.com/BigTiger2020/74CMS/blob/main/14.png)
+
+After uploading the image horse, the image address will be generated:   
+![image](https://github.com/BigTiger2020/74CMS/blob/main/15.png)
+
+Copy the path and call assign through the a method_ resume_ TPL function, and then submit the path through post:  
+![image](https://github.com/BigTiger2020/74CMS/blob/main/16.png)
+
+Picture Trojan content:  
+<?php phpinfo(); ?>  
+<qscms:company_show 列表名="info" 企业id="$_GET['id']"/>  
+
+
+
+
+
+
+
+
 
