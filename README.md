@@ -57,9 +57,8 @@ After uploading the image horse, the image address will be generated:
 Copy the path and call assign through the a method_ resume_ TPL function, and then submit the path through post:  
 ![image](https://github.com/BigTiger2020/74CMS/blob/main/16.png)
 
-Picture Trojan content:  
-<?php phpinfo(); ?>  
-<qscms:company_show 列表名="info" 企业id="$_GET['id']"/>  
+Picture Trojan content:   
+![image](https://github.com/BigTiger2020/74CMS/blob/main/17.png)
 
 
 
